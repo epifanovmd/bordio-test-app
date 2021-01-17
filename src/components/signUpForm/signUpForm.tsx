@@ -136,7 +136,7 @@ export const SignUpForm: FC = () => {
         items={countries}
         placeholder={t("selectCountry")}
         name={fieldNames.country}
-        defaultValue={values.country}
+        value={values.country}
         touch={touchedValues.country}
         error={errors.country}
         onBlur={setFieldBlur}
